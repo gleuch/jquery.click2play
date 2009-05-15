@@ -1,0 +1,44 @@
+jQuery.click2play
+
+------------------------------------------------------------------------------------------------
+
+jQuery plugin that converts video embeds in document into clickable thumbnails.
+
+Released by Greg Leuch <http://gleuch.com>.
+Originally for Rocketboom <http://rocketboom.com> & Know Your Meme <http://knowyourmeme.com>.
+
+------------------------------------------------------------------------------------------------
+
+Easy to use:
+
+  1. Add jquery.click2play.js to the page.
+  2. Add the initalizer:
+      $(document).ready(
+        // Initializer
+
+        // Options include skipFirst (true = leave first video as embed)
+        // and facebox (true = open in jQuery.facebox)
+
+        $('body').click2play(false, false);
+
+      });
+  3. Copy images from /images and styling from click2play.css into respective areas in your app.
+  4. Load video-heavy page and click away!
+
+
+------------------------------------------------------------------------------------------------
+
+
+Upcoming Features
+
+  - Condensing libraries into the jQuery function with $.extend();
+  - Adding libraries for Hulu, Blip, Break, and others.
+  - Adding ability to sniff for params with thumbnail url.
+
+
+------------------------------------------------------------------------------------------------
+
+
+Changelog
+
+  - (none yet...)

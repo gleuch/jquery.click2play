@@ -1,0 +1,4 @@
+.click2play a {display: inline-block; position: relative; padding: 3px; border: 1px solid #e0e0e0;}
+.click2play.hidden {display: none !important;}
+.click2play .play {position: absolute; top: 50% !important; left: 50% !important; margin: -25px 0 0 -25px !important; width: 50px; height: 50px; background: url(/images/play_button.png) 0 0 no-repeat;}
+.click2play a:hover .play {background-position: 0 -50px;}
